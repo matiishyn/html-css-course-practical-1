@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мій вебсайт - Головна</title>
+  </head>
+  <body>
+    <table border="1" width="100%">
+      <!-- header -->
+      <tr>
+        <td colspan="3">
+          <h1>Мій вебсайт - Зв'язатися зі мною</h1>
+        </td>
+      </tr>
+      <tr height="400">
+        <!-- left - navigation -->
+        <td width="200">
+          <h3>Меню сайту:</h3>
+          <ul>
+            <li><a href="./index.html">Головна</a></li>
+            <li><a href="./resume.html">Моє резюме</a></li>
+            <li><a href="./contact.html">Зв'язатися зі мною</a></li>
+          </ul>
+        </td>
+        <!-- center - main info -->
+        <td>
+          <h2>Зв'язатися зі мною</h2>
+          <h3>По електронній пошті</h3>
+          <div>
+            <a target="_blank" href="mailto:matiyishyn.ivan@gmail.com">
+              Відправили електронного листа
+            </a>
+          </div>
+
+          <hr />
+
+          <!-- Форма для відправлення повідомлення -->
+          <h3>Повідомлення</h3>
+          <p>
+            Залиште інформацію про себе та повідомлення у формі і я зв'яжуся з
+            вами
+          </p>
+          <form>
+            <div>
+              <label for="name">Ім'я*:</label>
+              <br />
+              <input type="text" required id="name" />
+            </div>
+            <div>
+              <label for="email">Електронна пошта*:</label>
+              <br />
+              <input type="email" required id="email" />
+            </div>
+            <div>
+              <label for="age">Номер телефону:</label>
+              <br />
+              <input type="number" id="age" />
+            </div>
+            <div>
+              <label for="message">Повідомлення:</label>
+              <br />
+              <textarea id="message" cols="16" rows="5"></textarea>
+            </div>
+            <button type="submit">Відправити</button>
+          </form>
+        </td>
+        <!-- right - ad, side, aside -->
+        <td width="200">
+          Тут може бути ваша реклама
+        </td>
+      </tr>
+      <!-- footer -->
+      <tr>
+        <td colspan="3">
+          <p>
+            Іван Матіїшин, 2022
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
